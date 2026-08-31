@@ -1,0 +1,17 @@
+{
+    "name": "euticus/whatsapp-ai",
+    "description": "AI-powered WhatsApp chatbot using OpenAI API",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Euticus\\WhatsappAi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Euticus Kamau",
+            "email": "euticus.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
