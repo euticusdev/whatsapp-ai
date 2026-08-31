@@ -38,6 +38,14 @@ An AI-powered WhatsApp chatbot that receives WhatsApp messages, processes them u
 - Initialized PHP project with Composer
 - Configured PSR-4 autoloading
 
+### Step 2 - PHP Application Bootstrap
+
+- Created `src/App.php`
+- Added the `Euticus\WhatsappAi` namespace
+- Created the `App` class
+- Verified Composer PSR-4 autoloading
+- Successfully tested the application bootstrap
+
 ## Developer
 
 Euticus Dev
