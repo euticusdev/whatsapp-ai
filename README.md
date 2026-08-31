@@ -46,6 +46,17 @@ An AI-powered WhatsApp chatbot that receives WhatsApp messages, processes them u
 - Verified Composer PSR-4 autoloading
 - Successfully tested the application bootstrap
 
+### Step 3 - Environment & OpenAI Configuration
+
+- Added `.env.example` for environment configuration
+- Protected `.env` using `.gitignore`
+- Installed `vlucas/phpdotenv`
+- Created `src/Config.php`
+- Created `src/OpenAI.php`
+- Verified environment loading
+- Verified OpenAI API key detection
+- No real API credentials committed to GitHub
+
 ## Developer
 
 Euticus Dev
