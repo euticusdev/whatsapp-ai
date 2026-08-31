@@ -57,6 +57,15 @@ An AI-powered WhatsApp chatbot that receives WhatsApp messages, processes them u
 - Verified OpenAI API key detection
 - No real API credentials committed to GitHub
 
+### Step 4 - OpenAI API Connection
+
+- Installed `openai-php/client`
+- Created an OpenAI client wrapper
+- Configured the OpenAI API key through `.env`
+- Verified the API key loads successfully
+- Successfully connected to the OpenAI API
+- Verified the connection using the models endpoint
+
 ## Developer
 
 Euticus Dev
