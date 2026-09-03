@@ -11,4 +11,9 @@ class Config
         $dotenv = Dotenv::createImmutable(dirname(__DIR__));
         $dotenv->load();
     }
+
+    public static function get(string $key): ?string
+    {
+        return $_ENV[$key] ?? null;
+    }
 }
